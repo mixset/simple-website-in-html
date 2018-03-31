@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="Przykładowa strona www wykonana w HTML 5 oraz CSS 2.1 na potrzebny tutorialu. Autor: Dominik Ryńko - www.rynko.pl">
+        <meta name="author" content="Dominik Ryńko">
+        <title>Przykładowa strona www wykonana w HTML 5 oraz CSS 2.1 - www.rynko.pl</title>
+        <link rel="Stylesheet" href="assets/css/normalize.css">
+        <link rel="Stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="icon" href="assets/images/favicon.ico">
+    </head>
+<body>
+    <header class="header">
+        <h1>
+            <a href="index.html" title="Strona główna">Example website title</a>
+        </h1>
+    </header>
+
+    <section class="left-sidebar">
+        <nav class="menu">
+            <ul>
+                <li><a href="#main-page" title="Strona główna">Strona główna</a></li>
+                <li><a href="#about-us" title="O nas">O nas</a></li>
+                <li><a href="#portfolio" title="Portfolio">Portfolio</a></li>
+                <li><a href="#contact" title="Kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="right-sidebar">
+        <article id="main-page">
+            <figure class="post-image">
+                <img src="assets/images/analytics.jpg" alt="Google analytics">
+            </figure>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum
+                </p>
+                <a href="#read-more" class="read-more">Czytaj więcej</a>
+            </div>
+        </article>
+
+        <hr>
+
+        <article id="about-us">
+            <figure class="post-image">
+                <img src="assets/images/seo.jpg" alt="SEO - Search Engine Optimization">
+            </figure>
+            <div class="content">
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                    rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                    dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                    incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                    exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
+                    vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+                    qui dolorem eum fugiat quo voluptas nulla pariatur?
+                </p>
+                <a href="#read-more" class="read-more">Czytaj więcej</a>
+            </div>
+        </article>
+
+        <hr>
+
+        <article id="portfolio">
+            <figure class="post-image">
+                <img src="assets/images/webmap.jpg" alt="Keywords in Web-Dev world">
+            </figure>
+            <div class="content">
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+                    atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+                    similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum
+                    quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
+                    omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+                    saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic
+                    tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis
+                    doloribus asperiores repellat.
+                </p>
+                <a href="#read-more" class="read-more">Czytaj więcej</a>
+            </div>
+        </article>
+
+        <article id="contact">
+            <form action="#" method="POST" class="contact-form">
+                <fieldset>
+                    <legend>Formularz kontaktowy</legend>
+                    <dl>
+                        <dt><label for="name">Imię i nazwisko</label></dt>
+                            <dd><input type="text" id="name" placeholder="Wpisz swoje imię i nazwisko"></dd>
+                        <dt><label for="email">Adres E-mail</label></dt>
+                            <dd><input type="email" id="email" placeholder="Wpisz swój adres E-mail"></dd>
+                        <dt><label for="content">Treść wiadomości</label></dt>
+                            <dd><textarea id="content" placeholder="Wpisz treść wiadomości" rows="5" cols="40"></textarea></dd>
+                        <dt><input type="submit" value="Wyślij wiadomość"></dt>
+                    </dl>
+                </fieldset>
+            </form>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <hr />
+        <p>Copyright by Dominik Ryńko &copy; 2012 - 2018</p>
+        <p>Example website by <a href="http://www.rynko.pl" title="Dominik Ryńko - portfolio">www.rynko.pl</a></p>
+    </footer>
+
+    <script src="assets/javascript/core.js"></script>
+</body>
+</html>
