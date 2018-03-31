@@ -4,9 +4,11 @@
 
 This repository shows, how easily you can build simple website using basic technologies: `HTML 5` and `CSS 3`.
 
+## Demo
+In demo directory, you can find screens of website look. 
+
 ## Contributing
 If you have any idea how application can be improved, please create new issue with detailed description of your idea. Thank you :)
-
 
 ## Changelog
 
