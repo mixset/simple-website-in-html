@@ -16,4 +16,8 @@ If you have any idea how application can be improved, please create new issue wi
 [31.03.2018] - v1.1
 * Directory structure changed
 * HTML and CSS code improvement
+* Normalize.css added
+* Added custom images for sections
+* Added anchors in menu and specific sections
+* Default javascript file and empty fonts directory added
 
